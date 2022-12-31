@@ -1,9 +1,9 @@
 {
-    "app-id" : "org.example.App",
+    "app-id" : "com.github.MrSyabro.CraftUniverse2",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
-    "command" : "lgi_example",
+    "command" : "craftuniverse",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
@@ -50,13 +50,13 @@
 		]
 	},
         {
-            "name" : "lgi_example",
+            "name" : "craftuniverse",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [
                 {
-                    "type" : "git",
-                    "url" : "https://github.com/MrSyabro/lgi_example.git"
+                    "type" : "file",
+                    "path" : "."
                 }
             ]
         }

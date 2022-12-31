@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=CraftUniverse
+Exec=craftuniverse
+Icon=com.github.MrSyabro.CraftUniverse2
+Terminal=false
+Type=Application
+Categories=GTK;Game;
+StartupNotify=true

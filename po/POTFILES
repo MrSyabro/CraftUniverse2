@@ -1,6 +1,6 @@
-data/org.example.App.desktop.in
-data/org.example.App.appdata.xml.in
-data/org.example.App.gschema.xml
+data/com.github.MrSyabro.CraftUniverse2.desktop.in
+data/com.github.MrSyabro.CraftUniverse2.appdata.xml.in
+data/com.github.MrSyabro.CraftUniverse2.gschema.xml
 src/window.ui
 src/main.py
 src/window.py

@@ -3,7 +3,7 @@ local Gtk = lgi.require("Gtk", "3.0")
 local Gio = lgi.Gio
 
 local app = Gtk.Application {
-	application_id = "org.example.App"
+	application_id = "com.github.MrSyabro.CraftUniverse2"
 }
 
 function app:on_startup()
